@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main(){
-    int a,b,c;
+static void add(int a, int b, int c){
     c = a + b;
+}
 
-    return 0;
+int main(){
+    add(1,2,3);
 }
