@@ -3,7 +3,6 @@
 static void add(int a, int b, int c){
     b = a + c + a + c;
     c = a + b;
-    b = a + c;
 }
 
 int main(){
